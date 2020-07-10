@@ -1,0 +1,7 @@
+VS Code Keybindings cheat-sheets:
+	https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
+	https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
+	https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+	
+How to open VS Code from CLI on Mac
+	https://code.visualstudio.com/docs/setup/mac
