@@ -47,8 +47,11 @@ The following topics will be covered in this unit:
 You will be employer-ready if you can answer the following questions:
 
 1. What does it mean to be a full-stack web developer?
+  # font end design and back end developer --> building a website and web application solution, databases, recalling data, developing software that runs on the web
 2. What is the relationship between HTML and CSS?
+  # HTML is the skeleton, CSS is the clothing, 
 3. What is Git workflow?
+  #
 
 ## Learning Objectives
 

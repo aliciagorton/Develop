@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>RPS Score:<span id="rps-score"></span></p>
+    <p>Player Score:<span id="player-score"></span></p>
+   
+    <script>
+
+var rps = ["rock", "paper", "scissors"];
+
+var rps_score = 0;
+var player_score = 0;
+
+
+function RPS() {
+    // <!-- Prompt user to enter r, p, or s -->
+    var player = prompt("We are playing Rock, Paper, Scissors! Type your choice:");
+
+    // <!-- Computer chooses random value in a list of r, p, or s -->
+    // var rps = math.random("rock", "paper", "scissors");
+    var num = Math.floor(Math.random() * 3);
+
+    console.log(`num: ${num}`);
+
+    var rps = rps[num];
+
+    // <!-- Determine if the user wins or not -->
+
+    if (rps === "rock" && player === "scissors") {
+        alert("Rocks beats Scissors");
+        rps_score += 1;
+    }  
+
+    else if (rps === "rock" && player === "rock") {
+        alert("Draw");
+    }
+
+    else if (rps === "rock" && player === "paper") {
+        alert("Paper beats Rock");
+        player_score += 1;
+    }
+
+    if (rps === "scissors" && player === "rock") {
+        alert("Rock beats Scissors");
+        player_score += 1;
+    }
+
+    else if (rps =="scissors" && player === "scissors"){
+        alert("Draw");
+    }
+
+    if (rps === "scissors" && player === "paper") {
+        alert("Rock beats Scissors");
+        rps_score += 1;
+    }
+    if (rps === "paper" && player === "rock") {
+        alert("Rock beats Scissors");
+        rps_score += 1;
+    }
+
+    else if (rps =="paper" && player === "scissors"){
+        player_score += 1;
+    }
+
+    if (rps === "paper" && player === "paper") {
+        alert("Rock beats Scissors");
+        alert("Draw");
+    }
+
+    <!-- Add to the score -->
+    document.querySelector("#rps-score").innerText = rps_score;
+    document.querySelector("#player-score").innerText = player_score;
+}
+
+var play_again = prompt("Do you want to play again? Type Y or N");
+if(play_again === "Y") {
+    RPS();
+}
+
+
+    </script>
+</body>
+</html>

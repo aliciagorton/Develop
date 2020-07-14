@@ -29,18 +29,28 @@ The following topics will be covered in this unit:
 You will be employer-ready if you can answer the following questions:
 
 1. What is a CDN?
+content delivery network: bootstrap --> reminder look at the link in HTML 
+
 2. What is a CSS framework?
+Framework is a collection of libraries -- bootstrap = JS, CSS, jquery = JS
+
 3. What are three benefits of using a CSS framework?
+mobile responsivness, UI something in notes
 
 ## Learning Objectives
 
 You will be employer-competitive if you are able to:
 
 * Explain the importance of CSS resets and cross-browser compatibility
+  # allows a uniform look among browsers, can change line-height, font, margins...
 * Explain and implement content delivery network links in HTML files
+  # many types of CDN's netflix is an example. 
 * Implement a grid layout in HTML to leverage the benefits of a CSS framework
+
 * Integrate Bootstrap components in HTML files to quickly build user interfaces
+  # buttons, and spinner examples --> need to link in the <head> and <style>
 * Add custom styling to a CSS framework
+  # etc. btn class after bootstrap ---> remember top down with reading 
 * Deploy to GitHub pages
 
 ## Homework: Responsive Portfolio

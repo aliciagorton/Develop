@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Array Activity - Unsolved</title>
+  </head>
+  <body>
+
+    <h1>Open the console to see the magic!</h1>
+
+    <script type="text/javascript">
+
+      var bands = ["Pink Floyd", "The Beatles", "Nirvana", "The Who"];
+
+      // print a 4 to the console
+      console.log(bands.length);
+
+      // print The Beatles to the console
+      console.log(bands[1]);
+
+      // print Nirvana to the console
+      console.log(bands[2]);
+
+      // print Pink Floyd to the console
+      console.log(bands[0]);
+
+      // print undefined to the console
+      console.log(bands[bands.length]);
+
+      // print The Who to the console -- will resolve 3-1 = 2 = dog 
+      console.log(bands[bands.length - 1]);
+
+      // print -1 to the console = nonexisting variable will result in -1
+      // THIS IS HOW YOU CHECK IF AN ELEMENT IS IN AN ARRAY
+      console.log(bands.indexOf("Bears"));
+
+      // print 2 to the console
+      console.log(bands.indexOf("Nirvana"));
+
+    </script>
+
+  </body>
+</html>

@@ -1,5 +1,15 @@
-/**
- * Google Fonts Demo
- **/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Notable&family=Pangolin&display=swap');
 
-/* Add in the Google Fonts of your choice */
+.thought1 {
+    font-family: 'Lato', sans-serif;
+}
+
+.thought2 {
+    font-family: 'Notable', sans-serif;
+}
+
+.thought3 {
+    font-family: 'Pangolin', cursive;
+}
+
+

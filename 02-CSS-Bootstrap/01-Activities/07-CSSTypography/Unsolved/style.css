@@ -1,0 +1,15 @@
+
+
+#bold {
+    font-weight: bold;
+}
+
+#enlarge {
+    font-size: 24px;
+}
+
+#class {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 50px;
+}

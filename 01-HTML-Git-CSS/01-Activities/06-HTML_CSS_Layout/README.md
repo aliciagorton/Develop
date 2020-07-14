@@ -4,6 +4,7 @@
 * Use the command line to make a folder called `css`.
 * Use the command line to make a file called `style.css` inside of the `css` folder.
 * Reference the `style.css` in your `html-bio-with-css.html` file. You do this by placing `<link rel="stylesheet" type="text/css" href="css/style.css">` inside the `<head>` tag.
+
 * Style the example on the projector.
   * Add a `class` called "container" on the `div` tag. For example: `<div class="container">`.
   * Add an `id` called "main-bio" for the first `section` tag.

@@ -1,0 +1,65 @@
+body{
+
+    background: url(assets/rock.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+wo
+
+#contact-info {
+    overflow: hidden;
+}
+
+#contact-info p {
+    word-wrap: break-word;
+}
+
+.border-bottom{
+
+    color: azure;
+}
+
+#hhp0:hover{
+
+    color: lig rgb(136, 160, 253) !important;   
+}
+
+#hhp1:hover{
+    color: rgb(136, 160, 253) !important;
+}
+
+#hhp2:hover{
+    color:  rgb(136, 160, 253) !important;
+}
+
+#hhp0{
+    color: white;
+    font-size: 1.5rem;
+}
+
+#hhp1{
+    color: white;
+    font-size: 1.5rem;
+}
+
+#hhp2{
+    color: white;
+    font-size: 1.5rem;
+}
+
+aside {
+    float: left;
+    width: 33%;
+    height: 200px;
+    padding: 20px;
+    margin-left: 30px;
+    background: #080808;
+    border: 1px solid #eee;
+  }
+
+  footer {
+    padding: 20px;
+    clear: both;
+    background: grey;
+  }

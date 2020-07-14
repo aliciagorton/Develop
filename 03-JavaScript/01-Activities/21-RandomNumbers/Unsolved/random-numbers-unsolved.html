@@ -8,12 +8,25 @@
     <script type="text/javascript">
       // Loop 10 times
       for (var i = 0; i < 10; i++) {
-        // Generate a random decimal number between 0 and 1
-        var num = Math.random();
+      //  generate a random number between 1 and 10
+      //  math.floor will round down, meaning we would get a number between 0 and 9 
+       var num = Math.floor(Math.random() * 10) +1;
+
+        // gives a number between 0 and 1. 
+        var rand = Math.random();
+
+        // move the decimal 1 place to the right
+        var multiplied = rand * 10;
+
+        // round down to the next integer
+        var rounded = Math.floor(multiplied);
+
+        // add 1 to shift right on the number line (1-10)
+        var num = rounded + 1;
 
         // Display in console
         console.log(num);
-      }
+
     </script>
   </body>
 </html>
